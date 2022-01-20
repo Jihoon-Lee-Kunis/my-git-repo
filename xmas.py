@@ -1,5 +1,6 @@
 import turtle as t
 import random
+import json
 def make_star(size,st_color):
     t.begin_fill()
     t.color(st_color)
@@ -72,5 +73,5 @@ for i in range(1,line//2+2):
         t.setx(home[0]+temp)
         t.dot(7,'saddlebrown')
 
-
+#나는야 나는야 확인용
 t.done()
